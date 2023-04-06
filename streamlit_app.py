@@ -52,7 +52,7 @@ streamlit.dataframe(my_data_rows)
 
 #choose fruit to get info on
 add_my_fruit = streamlit.text_input('What fruit would you like to add?','Jackfruit')
-]
+
 
 # Display the table on the page.
 streamlit.text('Thanks for adding ') streamlit.dataframe(fruits_added)
