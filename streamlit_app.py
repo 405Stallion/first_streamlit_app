@@ -55,5 +55,4 @@ add_my_fruit = streamlit.text_input('What fruit would you like to add?','Jackfru
 
 
 # Display the table on the page.
-streamlit.text('Thanks for adding ') 
-streamlit.dataframe(add_my_fruit )
+streamlit.text('Thanks for adding ' + add_my_fruit) 
